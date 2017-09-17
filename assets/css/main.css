@@ -12,31 +12,59 @@ h1{
 form{
     padding: 2rem;
 }
+.container{
+    padding: 0 12rem;
+}
 .form-group{
     padding:2rem;
 }
 input{
     position: relative;
 }
-.good,
-.bad{
+.icon-check,
+.icon-error{
     position: absolute;
     right: 2rem;
     top: 1rem;
 }
-.bad{
+.icon-error{
     color: #ff0000;
 }
-.good{
+
+.input-password .icon-error,
+.new-password .icon-error{
+    top: 3rem;
+}
+.icon-check{
     color: #008000;
 }
-.color-red{
+.error{
     border:1px solid #ff0000!important;
 }
 .alert{
     color: #ff0000;
 }
+.progress{
+    margin-top: 10px;
+    height:10px;
+}
+.bar-messages{
+    margin-top: -10px;
+}
+.bebe-cry{
+    width: 1.8rem;
+}
 #enviar{
-    position: absolute;
-    left: 50%;
+    margin-left: 45%;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 760px) {
+    .container{
+        padding: 0;
+    }
+    #enviar{
+        left: 40%;
+    }
+
 }
