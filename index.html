@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>DEMO LABS</title>
+</head>
+<body>
+    <h1 class="text-center text-capitalize">Formulario Labs Demo</h1>
+        <form>
+            <div class="container">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label col-sm-6" for="name">Tu nombre y apellido</label>
+                            <p class="col-sm-12">Este nombre aparecerá publicamente cuando contactes a postulantes a tu empleo mediante mensajes y será visto también por los miembros de tu equipo.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="name" placeholder="Nombre"><span class="hide bad glyphicon glyphicon-remove"></span><span class="hide good glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label col-sm-6" for="input-email">Tu e-mail</label>
+                            <p class="col-sm-12">Con este correo iniciarás sesión y te enviaremos notificaciones de postulantes e información importante a tu cuenta.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" id="input-email" placeholder="email"><span class="hide bad color-red glyphicon glyphicon-remove"></span><span class="hide good glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label col-sm-6" for="input-password"><span class="glyphicon glyphicon-lock"></span> Nueva contraseña</label>
+                            <p class="col-sm-12">Si no deseas cambiar tu contraseña actual, deja este campo en blanco.</p>
+                        </div>
+                        <div class="bordes col-sm-6">
+                            <span class="alert hide">La contraseña actual es muy corta</span>
+                            <input type="password" class="form-control" id="input-password" placeholder="Nueva contraseña"><span class="hide glyphicon glyphicon-remove"></span><span class="hide glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label col-sm-6" for="new-password"><span class="glyphicon glyphicon-lock"></span> Confirma tu nueva contraseña</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" id="new-password" placeholder="Confirma contraseña"><span class="hide glyphicon glyphicon-remove"></span><span class="hide glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="control-label col-sm-6" for="lost-password"><span class="glyphicon glyphicon-lock"></span> Contraseña actual</label>
+                            <p class="col-sm-12">Necesitamos tu contraseña actual para confirmar los cambios.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" id="lost-password" placeholder="Antigua contraseña"><span class="hide glyphicon glyphicon-remove"></span><span class="hide glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="enviar" class="btn btn-primary">Actualizar</button>
+            </div>
+        </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

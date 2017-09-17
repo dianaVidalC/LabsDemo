@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1{
+    padding-bottom: 2rem;
+}
+
+form{
+    padding: 2rem;
+}
+.form-group{
+    padding:2rem;
+}
+input{
+    position: relative;
+}
+.good,
+.bad{
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
+.bad{
+    color: #ff0000;
+}
+.good{
+    color: #008000;
+}
+.color-red{
+    border:1px solid #ff0000!important;
+}
+.alert{
+    color: #ff0000;
+}
+#enviar{
+    position: absolute;
+    left: 50%;
+}
